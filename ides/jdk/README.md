@@ -37,7 +37,7 @@ Compruebo las versiones de OpenJDK instaladas:
 
 Para configurar las variables de entorno hay dos posibilidades:
 
-### 1ª opción: modificar el fichero 'profile':
+### 1ª opción: modificar el fichero 'profile'
 
     sudo update-alternatives --config java
 
@@ -54,3 +54,16 @@ No pinta bien, pruebo a seleccionar otra versión, la 11.
 
 Esta vez si que consigue crear la JVM. Parece que no puedo trabajar sobre java 8 en mi distribución. 
 
+### 2ª opción: modificar directamente las variables de entorno
+
+    JAVA_HOME=/usr/lib/jvm/(SELECCIONA UN PATH DE LA VERSION QUE DESEAS QUE SE EJECUTE)
+    PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
+    export JAVA_HOME
+    export JRE_HOME
+    export PATH
+
+Pruebo a cambiar a la versión 13:
+
+<img src="img/captura8.png">
+
+No consigo cambiar la versión de Java mediante el procedimiento sugerido.

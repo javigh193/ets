@@ -248,6 +248,12 @@ Mostrar las diferencias entre versiones:
    - muestra las diferencias entre el directorio de trabajo y la zona de intercambio temporal:
         
             git diff 
+   
+   - muestra las diferencias entre la zona de intercambio temporal y el último commit:
+   
+            dit diff --cached 
             
-
+   -muestra la diferencia entre el directorio de trabajo y el último commit:
+            
+            git diff HEAD  
         

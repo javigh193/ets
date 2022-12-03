@@ -224,3 +224,30 @@ Volver a un estado anterior desde remoto:
         git fetch origin
         
         git reset --hard <nombre_rama_remota>
+        
+Historial del repositoriio:
+
+Ver el estado:
+
+        git status
+        
+Ver historial de commits:
+
+        git log oneline/graph
+
+Mostrar información de un commit concreto:
+
+        git show <commit>
+        
+ Mostrar el historial de cambios de un fichero:
+ 
+        git annotate
+        
+Mostrar las diferencias entre versiones:
+
+    - muestra las diferencias entre el directorio de trabajo y la zona de intercambio temporal:
+        
+        git diff 
+        
+
+        

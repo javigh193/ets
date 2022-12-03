@@ -136,6 +136,14 @@ Removing process.C
 
 Removing upload.C
 
+Hay otros modificadores, como forzar el borrado:
+
+        git clean -f
+        
+## Ramas
+
+![image](https://user-images.githubusercontent.com/115082160/205448421-8d1c4400-43e0-4fa6-85b9-a33d42fc5fa8.png)
+
 
 
 

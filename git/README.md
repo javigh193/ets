@@ -83,4 +83,59 @@ staged ⇒ preparado
 committed ⇒ confirmado
 
     git commit → confirmar
+ 
+Se puede hacer un commit junto con un add si es para archivos con seguimiento:
+    
+        git commit -am "Fast"
+        
+Me olvidé de incluir un cambio en el último commit:
+
+        git commit --amend
+
+Opción que deja el antiguo commit desatendido:
+
+        git commit --amend --no-edit
+        
+El CTRL-Z de toda la vida:
+
+Escenario 1: Hemos modificado README.md pero está aún sin preparar:
+
+        git restore README.md
+
+Escenario 2: Hemos modificado README.md y lo hemos preparado:
+
+        git restore --staged README.md
+        
+        git restore README.md
+        
+Borrando archivos sin seguimiento:
+
+        git clean -i
+        
+Se abre un menú:
+        
+Would remove the following items:
+ 
+ process.C  upload.C
+
+*** Commands ***
+  
+  1: clean                2: filter by pattern
+  
+  3: select by numbers    4: ask each
+  
+  5: quit                 6: help
+
+What now> 4
+
+Remove process.C [y/N]? y
+
+Remove upload.C [y/N]? y
+
+Removing process.C
+
+Removing upload.C
+
+
+
 

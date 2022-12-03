@@ -217,4 +217,10 @@ El comando git fetch descarga commits, archivos y referencias de un repositorio 
 El resto aún no lo hemos visto en clase...
 
         
-      
+## Repositorios de Joathan
+
+Volver a un estado anterior desde remoto:
+
+        git fetch origin
+        
+        git reset --hard <nombre_rama_remota>

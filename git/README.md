@@ -245,7 +245,7 @@ Mostrar información de un commit concreto:
         
 Mostrar las diferencias entre versiones:
 
-    - muestra las diferencias entre el directorio de trabajo y la zona de intercambio temporal:
+   - muestra las diferencias entre el directorio de trabajo y la zona de intercambio temporal:
         
         git diff 
         

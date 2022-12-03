@@ -1,1 +1,1 @@
-## Apuntes sobre GIT
+# Apuntes sobre GIT

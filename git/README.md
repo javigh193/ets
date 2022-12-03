@@ -180,5 +180,41 @@ Para modificar los remotos:
         
 Tambien podría editar el .git/config ...
 
+Mostrar rama actual:
 
+        git branch
+        
+Crear nueva rama y moverme a ella:
+
+        git switch -c blue
+        
+Para volver a la rama anterior:
+
+        git switch -
+
+Para subir los cambios upstream:
+
+        git push
+        
+Si no hay rama correspondiente upstream, hay que crearla:
+
+        git push -u origin dev
+        
+Son equivalentes:   -u ⇔ --set-upstream  
+
+Mezclando cambios en otra rama:
+
+        git merge dev 
+
+Para bajar a local los cambios en remoto:
+
+        git pull
+        
+El comando git fetch descarga commits, archivos y referencias de un repositorio remoto a tu repositorio local:
+        
+        git fetch
+        
+El resto aún no lo hemos visto en clase...
+
+        
       

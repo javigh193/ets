@@ -60,3 +60,12 @@ Confirmar los cambios:
 
         git commit -m "First commit"
 
+Subir cambios al servicio web:
+        
+        git push
+        
+## Comandos en detalle
+
+![image](https://user-images.githubusercontent.com/115082160/205445016-fa38bd39-5b83-44d8-b7c6-99f9c6b6360b.png)
+
+

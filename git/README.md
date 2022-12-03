@@ -68,4 +68,19 @@ Subir cambios al servicio web:
 
 ![image](https://user-images.githubusercontent.com/115082160/205445016-fa38bd39-5b83-44d8-b7c6-99f9c6b6360b.png)
 
+ignored \Rightarrow⇒ ignorado
+
+tracked \Rightarrow⇒ con seguimiento
+
+untracked \Rightarrow⇒ sin seguimiento
+
+modified \Rightarrow⇒ modificado
+
+staged \Rightarrow⇒ preparado
+
+git add \rightarrow→ preparar
+
+committed \Rightarrow⇒ confirmado
+
+git commit \rightarrow→ confirmar
 

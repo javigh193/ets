@@ -160,4 +160,25 @@ Todos los detalles:
 
         git branch -avv
 
+Crear ramas:
 
+        git branch dev
+        
+Borrar ramas:
+
+        git branch -d dev
+        
+Ver origen remoto:
+
+        git remote -v
+    
+Para modificar los remotos:
+
+        git remote add
+        
+        git remote remove
+        
+Tambien podría editar el .git/config ...
+
+
+      

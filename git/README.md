@@ -253,7 +253,7 @@ Mostrar las diferencias entre versiones:
    
             dit diff --cached 
             
-   -muestra la diferencia entre el directorio de trabajo y el último commit:
+   - muestra la diferencia entre el directorio de trabajo y el último commit:
             
             git diff HEAD  
         

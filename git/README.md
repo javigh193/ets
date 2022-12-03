@@ -38,12 +38,25 @@ Vía ssh:
 
     git clone git@github.com:sdelquin/work.git
   
-Vía httpshttps:
+Vía https:
 
     git clone https://github.com/sdelquin/work.git
 
 ## Flujo de trabajo
 
+Crear rama de desarrollo:
 
+        git switch -c dev
 
+Ver el estado del repo:
+
+        git status
+
+Preparar los cambios:
+
+        git add .
+        
+Confirmar los cambios:        
+
+        git commit -m "First commit"
 

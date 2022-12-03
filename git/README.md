@@ -12,9 +12,9 @@ Crea un archivo en ~/.gitconfig:
   
   [user]
   
-   name = Sergio Delgado Quintero
+  name = Sergio Delgado Quintero
     
-   email = sdelquin@gmail.com
+  email = sdelquin@gmail.com
     
 Rama principal por defecto:
 
@@ -22,14 +22,15 @@ Rama principal por defecto:
     
 Añade a ~/.gitconfig:
 
-    [init]
-     defaultBranch = main
+   [init]
+   
+   defaultBranch = main
       
 ## Inicializar un repositorio
 
     git init
    
-      Initialized empty Git repository in /Users/sdelquin/work/.git/
+  Initialized empty Git repository in /Users/sdelquin/work/.git/
       
 ## Clonar un repositorio
  

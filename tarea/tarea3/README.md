@@ -32,7 +32,7 @@ Compruebo que el histórico esté actualizado.
 ---
 ## Ejercicio2
 
-Creo un nuevo fichero y comparo la versión actual con la segunda anterior. Para ello utilizo las opciones del comando 'git fiff'.
+Creo un nuevo fichero y comparo la versión actual con la segunda anterior. Para ello utilizo las opciones del comando 'git diff'.
 
 ---
 

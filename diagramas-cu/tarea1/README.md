@@ -40,4 +40,4 @@
 
 ## Diagrama de casos de uso
 
-<img src="">
+<img src="diagramas_cu1.png">
